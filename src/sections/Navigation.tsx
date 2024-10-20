@@ -1,3 +1,4 @@
+import { ModeToggle } from '@/components/global/mode-toggle'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -30,6 +31,7 @@ const Navigation = () => {
         >
           Get a Quote
         </Link>
+        <ModeToggle />
       </aside>
     </div>
   )
