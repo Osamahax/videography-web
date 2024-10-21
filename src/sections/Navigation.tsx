@@ -17,17 +17,17 @@ const Navigation = () => {
       </aside>
       <nav className="hidden md:block absolute left-[50%] top-[50%] 
       transform translate-x-[-50%] translate-y-[-50%]">
-        <ul className="flex items-center justify-center gap-8">
+        <ul className="flex items-center justify-center gap-8 capitalize">
           <Link href={'#'}>Home</Link>
           <Link href={'#'}>About Us</Link>
           <Link href={'#'}>Services</Link>
-          <Link href={'#'}>Get a Quote</Link>
+          <Link href={'#'}>Portfolio</Link>
         </ul>
       </nav>
       <aside className='flex gap-2 items-center'>
         <Link
           href={'contact'}
-          className='bg-primary text-white p-2 px-4 rounded-md hover:bg-primary/80'
+          className='hidden md:block bg-primary text-white p-2 px-4 rounded-md hover:bg-primary/80'
         >
           Get a Quote
         </Link>

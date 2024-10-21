@@ -32,7 +32,9 @@ const Testimonials = () => {
       ">
         <div className='bg-gradient-to-r from-primary to-secondary-foreground
         text-transparent bg-clip-text relative'>
-            <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold text-center'>What our clients Says</h1>
+            <h1 className='text-2xl sm:text-3xl 
+            md:text-4xl font-bold text-center'>
+                WHAT OUR CLIENTS SAYS</h1>
         </div>
 
         {[...Array(2)].map((arr,index)=>(
@@ -41,8 +43,8 @@ const Testimonials = () => {
             className={twMerge(
                 clsx('mt-10 flex flex-nowrap gap-6 self-start',{
                     'flex-row-reverse':index===1,
-                    'animate-[slide_250s_linear_infinite]':true,
-                    'animate-[slide_250s_linear_infinite_reverse]':index===1,
+                    'animate-[slide_200s_linear_infinite]':true,
+                    'animate-[slide_200s_linear_infinite_reverse]':index===1,
                     'ml-[100vw]':index===1,
                 }),'hover:paused'
             )}
