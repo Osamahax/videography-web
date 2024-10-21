@@ -3,6 +3,14 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navigation from "@/sections/Navigation";
 import { ThemeProvider } from "@/providers/theme-provider";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,20 +35,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="system"
-        enableSystem
-        disableTransitionOnChange
-        >
-        
-          <Navigation />
-          {children}
-      </ThemeProvider>
-        </body>
+      <body
+        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${roboto.className}`}
+      >
+        <div className="flex items-center justify-center min-h-screen">
+          <div className="max-w-[1600px] w-full p-4">
+            <ThemeProvider
+              attribute="class"
+              defaultTheme="system"
+              enableSystem
+              disableTransitionOnChange
+            >
+              <Navigation />
+              {children}
+            </ThemeProvider>
+          </div>
+        </div>
+      </body>
     </html>
   );
 }

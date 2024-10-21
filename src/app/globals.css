@@ -115,7 +115,7 @@ B (255 */
   }
 }
 .animate-slide {
-  animation: 15s slide linear infinite;
+  animation: 20s slide linear infinite;
 }
 @keyframes slide{
   from{

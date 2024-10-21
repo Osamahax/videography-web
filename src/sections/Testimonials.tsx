@@ -32,8 +32,8 @@ const Testimonials = () => {
       ">
         <div className='bg-gradient-to-r from-primary to-secondary-foreground
         text-transparent bg-clip-text relative'>
-            <h1 className='text-2xl sm:text-3xl 
-            md:text-4xl font-bold text-center'>
+            <h1 className='text-3xl sm:text-4xl 
+            md:text-5xl font-bold text-center'>
                 WHAT OUR CLIENTS SAYS</h1>
         </div>
 
@@ -64,7 +64,8 @@ const Testimonials = () => {
                             gap-4
                             '>
                                 <Avatar>
-                                    <AvatarImage src={`/avatars/${index + 1}.png`}/>
+                                    {/* <AvatarImage src={`/avatars/${index + 1}.png`}/> */}
+                                    <AvatarImage src={'/avatars/1.png'} alt='user image'/>
                                     <AvatarFallback>AV</AvatarFallback>
                                 </Avatar>
                                 <div>

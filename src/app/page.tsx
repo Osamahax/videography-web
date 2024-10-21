@@ -8,12 +8,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
+    <section className="max-w-[1600px] ">
       <Hero/>
       <ClientLogo/>
       <Testimonials />
       <Services />
       <Portfolio />
-    </>
+    </section>
   );
 }

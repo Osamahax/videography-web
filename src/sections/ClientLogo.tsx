@@ -58,7 +58,7 @@ const ClientLogo = () => {
                         <Image
                             src={client.logo}
                             alt={client.alt}
-                            width={200}
+                            width={150}
                             className="object-contain max-w-none"
                         />
                     </div>

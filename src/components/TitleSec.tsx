@@ -29,7 +29,7 @@ const TitleSec = ({title}:Props) => {
           className="bg-gradient-to-r from-primary to-secondary-foreground
         text-transparent bg-clip-text relative"
         >
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-center">
             {title}
           </h1>
         </div>

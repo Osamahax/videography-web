@@ -18,15 +18,15 @@ const Navigation = () => {
       <nav className="hidden md:block absolute left-[50%] top-[50%] 
       transform translate-x-[-50%] translate-y-[-50%]">
         <ul className="flex items-center justify-center gap-8 capitalize">
-          <Link href={'#'}>Home</Link>
-          <Link href={'#'}>About Us</Link>
-          <Link href={'#'}>Services</Link>
-          <Link href={'#'}>Portfolio</Link>
+          <li><Link href={'#'}>Home</Link></li>
+          <li><Link href={'#'}>About Us</Link></li>
+          <li><Link href={'#services'}>Services</Link></li>
+          <li><Link href={'#portfolio'}>Portfolio</Link></li>
         </ul>
       </nav>
       <aside className='flex gap-2 items-center'>
         <Link
-          href={'contact'}
+          href={'#contact'}
           className='hidden md:block bg-primary text-white p-2 px-4 rounded-md hover:bg-primary/80'
         >
           Get a Quote

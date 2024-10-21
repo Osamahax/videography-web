@@ -1,8 +1,12 @@
-import client1 from '../../public/assets/companieslogo/client1.png';
-import client2 from '../../public/assets/companieslogo/client2.png';
-import client3 from '../../public/assets/companieslogo/client3.png';
-import client4 from '../../public/assets/companieslogo/client4.png';
-import client5 from '../../public/assets/companieslogo/client5.png';
+import client1 from '../../public/assets/companieslogo/client1.svg';
+import client2 from '../../public/assets/companieslogo/client2.svg';
+import client3 from '../../public/assets/companieslogo/client3.svg';
+import client4 from '../../public/assets/companieslogo/client4.svg';
+import client5 from '../../public/assets/companieslogo/client5.svg';
+import client6 from '../../public/assets/companieslogo/client6.svg';
+import client7 from '../../public/assets/companieslogo/client7.svg';
+import client8 from '../../public/assets/companieslogo/client8.svg';
+import client9 from '../../public/assets/companieslogo/client6.png';
 
 export const CLIENTS = [
     { alt: 'client1', logo: client1 },
@@ -10,102 +14,152 @@ export const CLIENTS = [
     { alt: 'client3', logo: client3 },
     { alt: 'client4', logo: client4 },
     { alt: 'client5', logo: client5 },
+    { alt: 'client6', logo: client6 },
+    { alt: 'client7', logo: client7 },
+    { alt: 'client8', logo: client8 },
+    { alt: 'client9', logo: client9 },
   ];
 
   export const USERS = [
     {
-      name: 'Alice',
+      name: 'Client 1',
       message:
-        'Cypress has been a game-changer for our team. With its reliable end-to-end testing, we catch bugs early, leading to faster development cycles and improved collaboration.',
+        'lorem20Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?',
     },
     {
-      name: 'Bob',
+      name: 'Client 2',
       message:
-        "I used to spend hours debugging frontend issues, but Cypress simplified everything. Now, I'm more productive, and my colleagues can trust our code thanks to Cypress.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Charlie',
+      name: 'Client 3',
       message:
-        "Cypress has transformed the way we work. Our QA and development teams are on the same page, and our productivity has skyrocketed. It's a must-have tool.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'David',
+      name: 'Client 4',
       message:
-        'I was skeptical at first, but Cypress exceeded my expectations. Our project timelines have improved, and collaboration between teams is seamless.',
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?',
     },
     {
-      name: 'Ella',
+      name: 'Client 5',
       message:
-        "Cypress made writing and running tests a breeze. Our team's productivity has never been higher, and we're delivering more reliable software.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Frank',
+      name: 'Client 6',
       message:
-        "Thanks to Cypress, we've eliminated testing bottlenecks. Our developers and testers collaborate effortlessly, resulting in quicker releases.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Grace',
+      name: 'Client 7',
       message:
-        'Cypress has improved our development process significantly. We now have more time for innovation, and our products are of higher quality.',
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?',
     },
     {
-      name: 'Hank',
+      name: 'Client 8',
       message:
-        "Cypress's user-friendly interface made it easy for our non-technical team members to contribute to testing. Our workflow is much more efficient now.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Ivy',
+      name: 'Client 9',
       message:
-        "Our team's collaboration improved immensely with Cypress. We catch issues early, leading to less friction and quicker feature deployments.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Jack',
+      name: 'Client 10',
       message:
-        "Cypress's robust testing capabilities have elevated our development standards. We work more harmoniously, and our releases are more reliable.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Katherine',
+      name: 'Client 11',
       message:
-        "Cypress is a lifesaver for our cross-functional teams. We're more productive, and there's a shared sense of responsibility for product quality.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Liam',
+      name: 'Client 12',
       message:
-        "Cypress has helped us maintain high standards of quality. Our team's collaboration has improved, resulting in faster development cycles.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Mia',
+      name: 'Client 13',
       message:
-        "Cypress is a powerful tool that improved our productivity and collaboration. It's now an integral part of our development process.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Nathan',
+      name: 'Client 14',
       message:
-        "Cypress's user-friendly interface and detailed reporting have made testing a breeze. Our team's productivity is at an all-time high.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Olivia',
+      name: 'Client 15',
       message:
-        "We saw immediate benefits in terms of productivity and collaboration after adopting Cypress. It's an essential tool for our development workflow.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Paul',
+      name: 'Client 16',
       message:
-        "Cypress has streamlined our testing process and brought our teams closer. We're more efficient and deliver better results.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?",
     },
     {
-      name: 'Quinn',
+      name: 'Client 17',
       message:
-        'Cypress has been a game-changer for us. Our productivity and collaboration have improved significantly, leading to better software.',
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?',
     },
     {
-      name: 'Rachel',
+      name: 'Client 18',
       message:
-        'Thanks to Cypress, our testing process is now a seamless part of our development cycle. Our teams collaborate effortlessly.',
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?',
     },
     {
-      name: 'Sam',
+      name: 'Client 19',
       message:
-        'Cypress is a fantastic tool that has revolutionized our workflow. Our productivity and collaboration have reached new heights.',
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem a doloremque unde consectetur, earum pariatur tempore optio nostrum accusantium voluptates velit voluptatibus ipsum. Porro laboriosam officiis facere pariatur, consectetur quas?',
+    },
+  ];
+
+
+export const serviceCard = [
+    {
+      title: "PHOTOGRAPHY",
+      description:
+        "PHOTOGRAPHY",
+      logo: "/social/camera-shutter.svg",
+      features:['Full-day photo shoots','Half-day photo shoots','Professional lighting setup','Photo editing, color correction and retouching','Single-shooter and multi-shooter options']
+    },
+    {
+      title: "TV COMMERCIAL PRODUCTION",
+      description:
+        "TV COMMERCIAL PRODUCTION",
+      logo: "/social/video-camera.svg",
+      features:['Concept development.','Compelling scriptwriting.','High-quality filming.','Strategic placement.','Measurable results.']
+    },
+    {
+      title: "SOCIAL MEDIA VIDEOS",
+      description:
+      "SOCIAL MEDIA VIDEOS",
+      logo: "/social/video-camera.svg",
+      features:['Platform-specific content creation.','Attention-grabbing videos.','Tailored storytelling.','Engaging call-to-action.','Consistent branding.']
+    },
+    {
+      title: "Creative Content",
+      description:
+      "Creative Content",
+      logo: "/social/story.svg",
+      features:['Platform-specific content creation.','Attention-grabbing videos.','Tailored storytelling.','Engaging call-to-action.','Consistent branding.']
+    },
+    {
+      title: "CORPORATE VIDEOS",
+      description:
+      "CORPORATE VIDEOS",
+      logo: "/social/video-camera.svg",
+      features:['Brand overview.','Employee profiles.','Training videos.','Event coverage.','Professional production.']
+    },
+    {
+      title: "PODCAST PRODUCTION",
+      description:
+      "PODCAST PRODUCTION",
+      logo: "/social/video-camera.svg",
+      features:['Concept planning.','Professional recording.','Wide distribution.','Engaging content.','Brand integration.']
     },
   ];
